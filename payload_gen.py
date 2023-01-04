@@ -26,7 +26,7 @@ data = excel_data_df.to_dict('records')
 # print(data)
 case_list = []
 
-for record in data[2:10]:
+for record in data[2:102]:
     print(convert_growthrate_to_valid_percentage(record["Illustrative Growth Rate"]),"66666666666666666666")
  
     if "Sex" in record:
@@ -64,6 +64,11 @@ for record in data[2:10]:
             flag = True
             Vanishing_Term = flag
 
+    if record["Policy Term Basis"] == "Minimum":
+        record["Policy Term Basis"] = "MinimumPremium"
+    
+    if record["Policy Term Basis"] == "Whole of life":
+        record["Policy Term Basis"] = "WholeOfLife"
 
     result = {}
     payload = { 
