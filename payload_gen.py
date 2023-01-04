@@ -23,7 +23,7 @@ excel_data_df = pd.read_excel('test_premium_cases.xlsm',sheet_name='SSP Test Cas
 
 data = excel_data_df.to_dict('records')
 
-
+# print(data)
 case_list = []
 
 for record in data[2:10]:
@@ -92,7 +92,7 @@ for record in data[2:10]:
         "Growth Rate": convert_growthrate_to_valid_percentage(record['Illustrative Growth Rate']),
         "Insured Details": {
             "Life1": {
-                "DateOfBirth": str(record["DOB"]).split(" ")[0],
+                "DateOfBirth": str(record["DOB"].strftime('%d/%m/%Y')),
                 "Gender": l1_gender,
                 "Smoker":  l1_smoker,
                 "title": "Mr.",
@@ -110,7 +110,7 @@ for record in data[2:10]:
                 "SumInsuredPTD": record["Sum Insured\nPTD"]
             },
             "Life2": {
-                "DateOfBirth": str(record["DOB.1"]).split(" ")[0],
+                "DateOfBirth": str(record["DOB.1"].strftime('%d/%m/%Y')),
                 "Gender": l2_gender,
                 "Smoker": l2_smoker,
                 "title": "Mr.",

@@ -27,7 +27,7 @@
             "Growth Rate": 0.8,
             "Insured Details": {
                 "Life1": {
-                    "DateOfBirth": "1996-05-14",
+                    "DateOfBirth": "14/05/1996",
                     "Gender": "F",
                     "Smoker": "N",
                     "title": "Mr.",
@@ -45,7 +45,7 @@
                     "SumInsuredPTD": 907099
                 },
                 "Life2": {
-                    "DateOfBirth": "1974-08-16",
+                    "DateOfBirth": "16/08/1974",
                     "Gender": "M",
                     "Smoker": "Y",
                     "title": "Mr.",
@@ -316,7 +316,7 @@
             "Growth Rate": 7.0,
             "Insured Details": {
                 "Life1": {
-                    "DateOfBirth": "1975-07-30",
+                    "DateOfBirth": "30/07/1975",
                     "Gender": "F",
                     "Smoker": "Y",
                     "title": "Mr.",
@@ -334,7 +334,7 @@
                     "SumInsuredPTD": 0
                 },
                 "Life2": {
-                    "DateOfBirth": "1980-04-18",
+                    "DateOfBirth": "18/04/1980",
                     "Gender": "M",
                     "Smoker": "Y",
                     "title": "Mr.",
@@ -605,7 +605,7 @@
             "Growth Rate": 6.5,
             "Insured Details": {
                 "Life1": {
-                    "DateOfBirth": "1978-07-22",
+                    "DateOfBirth": "22/07/1978",
                     "Gender": "M",
                     "Smoker": "Y",
                     "title": "Mr.",
@@ -623,7 +623,7 @@
                     "SumInsuredPTD": 0
                 },
                 "Life2": {
-                    "DateOfBirth": "1959-05-23",
+                    "DateOfBirth": "23/05/1959",
                     "Gender": "F",
                     "Smoker": "Y",
                     "title": "Mr.",
@@ -894,7 +894,7 @@
             "Growth Rate": 3.5,
             "Insured Details": {
                 "Life1": {
-                    "DateOfBirth": "1957-03-06",
+                    "DateOfBirth": "06/03/1957",
                     "Gender": "F",
                     "Smoker": "N",
                     "title": "Mr.",
@@ -912,7 +912,7 @@
                     "SumInsuredPTD": 0
                 },
                 "Life2": {
-                    "DateOfBirth": "1979-08-14",
+                    "DateOfBirth": "14/08/1979",
                     "Gender": "F",
                     "Smoker": "Y",
                     "title": "Mr.",
@@ -1183,7 +1183,7 @@
             "Growth Rate": 6.7,
             "Insured Details": {
                 "Life1": {
-                    "DateOfBirth": "1975-04-03",
+                    "DateOfBirth": "03/04/1975",
                     "Gender": "F",
                     "Smoker": "Y",
                     "title": "Mr.",
@@ -1201,7 +1201,7 @@
                     "SumInsuredPTD": 1245844
                 },
                 "Life2": {
-                    "DateOfBirth": "1953-10-12",
+                    "DateOfBirth": "12/10/1953",
                     "Gender": "M",
                     "Smoker": "Y",
                     "title": "Mr.",
@@ -1472,7 +1472,7 @@
             "Growth Rate": 3.8,
             "Insured Details": {
                 "Life1": {
-                    "DateOfBirth": "1958-01-04",
+                    "DateOfBirth": "04/01/1958",
                     "Gender": "F",
                     "Smoker": "N",
                     "title": "Mr.",
@@ -1490,7 +1490,7 @@
                     "SumInsuredPTD": 7267252
                 },
                 "Life2": {
-                    "DateOfBirth": "1969-03-14",
+                    "DateOfBirth": "14/03/1969",
                     "Gender": "F",
                     "Smoker": "N",
                     "title": "Mr.",
@@ -1761,7 +1761,7 @@
             "Growth Rate": 6.9,
             "Insured Details": {
                 "Life1": {
-                    "DateOfBirth": "1990-01-03",
+                    "DateOfBirth": "03/01/1990",
                     "Gender": "M",
                     "Smoker": "N",
                     "title": "Mr.",
@@ -1779,7 +1779,7 @@
                     "SumInsuredPTD": 0
                 },
                 "Life2": {
-                    "DateOfBirth": "1997-05-09",
+                    "DateOfBirth": "09/05/1997",
                     "Gender": "M",
                     "Smoker": "Y",
                     "title": "Mr.",
@@ -2050,7 +2050,7 @@
             "Growth Rate": 2.6,
             "Insured Details": {
                 "Life1": {
-                    "DateOfBirth": "1969-03-29",
+                    "DateOfBirth": "29/03/1969",
                     "Gender": "F",
                     "Smoker": "N",
                     "title": "Mr.",
@@ -2068,7 +2068,7 @@
                     "SumInsuredPTD": 305273
                 },
                 "Life2": {
-                    "DateOfBirth": "1993-03-12",
+                    "DateOfBirth": "12/03/1993",
                     "Gender": "M",
                     "Smoker": "Y",
                     "title": "Mr.",
