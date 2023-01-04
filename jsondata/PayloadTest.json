@@ -1,0 +1,2314 @@
+[
+    {
+        "TestCaseNo.": 1,
+        "payload": {
+            "Product Name": "Futura",
+            "Product Version": "FUTU5",
+            "Policy Start Date": "01/11/2022",
+            "Currency": "STG",
+            "Duration": 7,
+            "Vanishing Term": true,
+            "Life Basis": "JLBD",
+            "Premium Basis": "Minimum",
+            "WoP Basis": "Second Life",
+            "Payment Frequency": "Half Yearly",
+            "Special Offer": 1,
+            "Single Premium": 0,
+            "Regular Premium": 0,
+            "Mode": "Monthly",
+            "FMC": 1.6,
+            "FIA Charge": 0,
+            "SA Interest": 0,
+            "RateList": [
+                0,
+                5.5,
+                4.5
+            ],
+            "Growth Rate": 0.8,
+            "Insured Details": {
+                "Life1": {
+                    "DateOfBirth": "1996-05-14",
+                    "Gender": "F",
+                    "Smoker": "N",
+                    "title": "Mr.",
+                    "Name": "Test One",
+                    "SumInsuredTerm": 1303901,
+                    "SumInsuredCI": 690544,
+                    "CancerCover": false,
+                    "FTIBIncome": 31602,
+                    "FTIBTerm": 17,
+                    "FIBIncome": 0,
+                    "FIBTerm": 0,
+                    "SumInsuredAccidentalDeath": 0,
+                    "SumInsuredDismemberment": 0,
+                    "SumInsuredHospitalization": 1436,
+                    "SumInsuredPTD": 907099
+                },
+                "Life2": {
+                    "DateOfBirth": "1974-08-16",
+                    "Gender": "M",
+                    "Smoker": "Y",
+                    "title": "Mr.",
+                    "Name": "Test One",
+                    "SumInsuredTerm": 336703,
+                    "SumInsuredCI": 187968,
+                    "CancerCover": false,
+                    "FTIBIncome": 12342,
+                    "FTIBTerm": 18,
+                    "FIBIncome": 0,
+                    "FIBTerm": 0,
+                    "SumInsuredAccidentalDeath": 0,
+                    "SumInsuredDismemberment": 0,
+                    "SumInsuredHospitalization": 1677,
+                    "SumInsuredPTD": 74733
+                }
+            },
+            "Loadings": {
+                "Life1": {
+                    "Permanent": {
+                        "PerMille": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "PTD": 0,
+                            "Hospitalization": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        },
+                        "Percentage": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "PTD": 0,
+                            "Hospitalization": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        },
+                        "Exclusions": {
+                            "Life Cover": [],
+                            "Critical Illness": [],
+                            "PTD": [],
+                            "Hospitalization": [],
+                            "FIB": [],
+                            "FTIB": [],
+                            "AccidentalDeath": [],
+                            "Dismemberment": [],
+                            "WoP": []
+                        }
+                    },
+                    "Temporary": {
+                        "PerMille": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        },
+                        "Percentage": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        }
+                    }
+                },
+                "Life2": {
+                    "Permanent": {
+                        "PerMille": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "Hospitalization": 0,
+                            "PTD": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        },
+                        "Percentage": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "Hospitalization": 0,
+                            "PTD": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        }
+                    },
+                    "Temporary": {
+                        "PerMille": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        },
+                        "Percentage": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        }
+                    }
+                }
+            },
+            "Escalation Percentage": 0,
+            "Single Premium Term": 1
+        }
+    },
+    {
+        "TestCaseNo.": 2,
+        "payload": {
+            "Product Name": "Futura",
+            "Product Version": "FUTU5",
+            "Policy Start Date": "01/11/2022",
+            "Currency": "STG",
+            "Duration": 15,
+            "Vanishing Term": true,
+            "Life Basis": "JLFD",
+            "Premium Basis": "Minimum",
+            "WoP Basis": "Second Life",
+            "Payment Frequency": "Quarterly",
+            "Special Offer": 1,
+            "Single Premium": 0,
+            "Regular Premium": 0,
+            "Mode": "Monthly",
+            "FMC": 1.6,
+            "FIA Charge": 1,
+            "SA Interest": 0,
+            "RateList": [
+                0,
+                5.5,
+                4.5
+            ],
+            "Growth Rate": 7.0,
+            "Insured Details": {
+                "Life1": {
+                    "DateOfBirth": "1975-07-30",
+                    "Gender": "F",
+                    "Smoker": "Y",
+                    "title": "Mr.",
+                    "Name": "Test One",
+                    "SumInsuredTerm": 13266121,
+                    "SumInsuredCI": 0,
+                    "CancerCover": false,
+                    "FTIBIncome": 0,
+                    "FTIBTerm": 0,
+                    "FIBIncome": 0,
+                    "FIBTerm": 0,
+                    "SumInsuredAccidentalDeath": 0,
+                    "SumInsuredDismemberment": 0,
+                    "SumInsuredHospitalization": 835,
+                    "SumInsuredPTD": 0
+                },
+                "Life2": {
+                    "DateOfBirth": "1980-04-18",
+                    "Gender": "M",
+                    "Smoker": "Y",
+                    "title": "Mr.",
+                    "Name": "Test One",
+                    "SumInsuredTerm": 13266121,
+                    "SumInsuredCI": 0,
+                    "CancerCover": false,
+                    "FTIBIncome": 0,
+                    "FTIBTerm": 0,
+                    "FIBIncome": 0,
+                    "FIBTerm": 0,
+                    "SumInsuredAccidentalDeath": 0,
+                    "SumInsuredDismemberment": 0,
+                    "SumInsuredHospitalization": 835,
+                    "SumInsuredPTD": 0
+                }
+            },
+            "Loadings": {
+                "Life1": {
+                    "Permanent": {
+                        "PerMille": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "PTD": 0,
+                            "Hospitalization": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        },
+                        "Percentage": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "PTD": 0,
+                            "Hospitalization": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        },
+                        "Exclusions": {
+                            "Life Cover": [],
+                            "Critical Illness": [],
+                            "PTD": [],
+                            "Hospitalization": [],
+                            "FIB": [],
+                            "FTIB": [],
+                            "AccidentalDeath": [],
+                            "Dismemberment": [],
+                            "WoP": []
+                        }
+                    },
+                    "Temporary": {
+                        "PerMille": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        },
+                        "Percentage": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        }
+                    }
+                },
+                "Life2": {
+                    "Permanent": {
+                        "PerMille": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "Hospitalization": 0,
+                            "PTD": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        },
+                        "Percentage": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "Hospitalization": 0,
+                            "PTD": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        }
+                    },
+                    "Temporary": {
+                        "PerMille": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        },
+                        "Percentage": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        }
+                    }
+                }
+            },
+            "Escalation Percentage": 0,
+            "Single Premium Term": 1
+        }
+    },
+    {
+        "TestCaseNo.": 3,
+        "payload": {
+            "Product Name": "Futura",
+            "Product Version": "FUTU5",
+            "Policy Start Date": "01/11/2022",
+            "Currency": "AED",
+            "Duration": 16,
+            "Vanishing Term": true,
+            "Life Basis": "JLLS",
+            "Premium Basis": "Minimum",
+            "WoP Basis": "Second Life",
+            "Payment Frequency": "Monthly",
+            "Special Offer": 1,
+            "Single Premium": 0,
+            "Regular Premium": 0,
+            "Mode": "Monthly",
+            "FMC": 1.6,
+            "FIA Charge": 0,
+            "SA Interest": 0,
+            "RateList": [
+                0,
+                5.5,
+                4.5
+            ],
+            "Growth Rate": 6.5,
+            "Insured Details": {
+                "Life1": {
+                    "DateOfBirth": "1978-07-22",
+                    "Gender": "M",
+                    "Smoker": "Y",
+                    "title": "Mr.",
+                    "Name": "Test One",
+                    "SumInsuredTerm": 53522881,
+                    "SumInsuredCI": 0,
+                    "CancerCover": false,
+                    "FTIBIncome": 0,
+                    "FTIBTerm": 0,
+                    "FIBIncome": 0,
+                    "FIBTerm": 0,
+                    "SumInsuredAccidentalDeath": 0,
+                    "SumInsuredDismemberment": 0,
+                    "SumInsuredHospitalization": 0,
+                    "SumInsuredPTD": 0
+                },
+                "Life2": {
+                    "DateOfBirth": "1959-05-23",
+                    "Gender": "F",
+                    "Smoker": "Y",
+                    "title": "Mr.",
+                    "Name": "Test One",
+                    "SumInsuredTerm": 53522881,
+                    "SumInsuredCI": 0,
+                    "CancerCover": false,
+                    "FTIBIncome": 0,
+                    "FTIBTerm": 0,
+                    "FIBIncome": 0,
+                    "FIBTerm": 0,
+                    "SumInsuredAccidentalDeath": 0,
+                    "SumInsuredDismemberment": 0,
+                    "SumInsuredHospitalization": 0,
+                    "SumInsuredPTD": 0
+                }
+            },
+            "Loadings": {
+                "Life1": {
+                    "Permanent": {
+                        "PerMille": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "PTD": 0,
+                            "Hospitalization": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        },
+                        "Percentage": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "PTD": 0,
+                            "Hospitalization": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        },
+                        "Exclusions": {
+                            "Life Cover": [],
+                            "Critical Illness": [],
+                            "PTD": [],
+                            "Hospitalization": [],
+                            "FIB": [],
+                            "FTIB": [],
+                            "AccidentalDeath": [],
+                            "Dismemberment": [],
+                            "WoP": []
+                        }
+                    },
+                    "Temporary": {
+                        "PerMille": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        },
+                        "Percentage": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        }
+                    }
+                },
+                "Life2": {
+                    "Permanent": {
+                        "PerMille": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "Hospitalization": 0,
+                            "PTD": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        },
+                        "Percentage": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "Hospitalization": 0,
+                            "PTD": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        }
+                    },
+                    "Temporary": {
+                        "PerMille": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        },
+                        "Percentage": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        }
+                    }
+                }
+            },
+            "Escalation Percentage": 0,
+            "Single Premium Term": 1
+        }
+    },
+    {
+        "TestCaseNo.": 4,
+        "payload": {
+            "Product Name": "Futura",
+            "Product Version": "FUTU5",
+            "Policy Start Date": "01/11/2022",
+            "Currency": "USD",
+            "Duration": 0,
+            "Vanishing Term": false,
+            "Life Basis": "JLFD",
+            "Premium Basis": "Minimum",
+            "WoP Basis": "Neither Life",
+            "Payment Frequency": "None",
+            "Special Offer": 1,
+            "Single Premium": 0,
+            "Regular Premium": 0,
+            "Mode": "Monthly",
+            "FMC": 1.6,
+            "FIA Charge": 0,
+            "SA Interest": 0,
+            "RateList": [
+                0,
+                5.5,
+                4.5
+            ],
+            "Growth Rate": 3.5,
+            "Insured Details": {
+                "Life1": {
+                    "DateOfBirth": "1957-03-06",
+                    "Gender": "F",
+                    "Smoker": "N",
+                    "title": "Mr.",
+                    "Name": "Test One",
+                    "SumInsuredTerm": 10367786,
+                    "SumInsuredCI": 0,
+                    "CancerCover": false,
+                    "FTIBIncome": 0,
+                    "FTIBTerm": 0,
+                    "FIBIncome": 49296,
+                    "FIBTerm": 18,
+                    "SumInsuredAccidentalDeath": 0,
+                    "SumInsuredDismemberment": 0,
+                    "SumInsuredHospitalization": 0,
+                    "SumInsuredPTD": 0
+                },
+                "Life2": {
+                    "DateOfBirth": "1979-08-14",
+                    "Gender": "F",
+                    "Smoker": "Y",
+                    "title": "Mr.",
+                    "Name": "Test One",
+                    "SumInsuredTerm": 10367786,
+                    "SumInsuredCI": 0,
+                    "CancerCover": false,
+                    "FTIBIncome": 0,
+                    "FTIBTerm": 0,
+                    "FIBIncome": 49296,
+                    "FIBTerm": 18,
+                    "SumInsuredAccidentalDeath": 0,
+                    "SumInsuredDismemberment": 0,
+                    "SumInsuredHospitalization": 0,
+                    "SumInsuredPTD": 0
+                }
+            },
+            "Loadings": {
+                "Life1": {
+                    "Permanent": {
+                        "PerMille": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "PTD": 0,
+                            "Hospitalization": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        },
+                        "Percentage": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "PTD": 0,
+                            "Hospitalization": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        },
+                        "Exclusions": {
+                            "Life Cover": [],
+                            "Critical Illness": [],
+                            "PTD": [],
+                            "Hospitalization": [],
+                            "FIB": [],
+                            "FTIB": [],
+                            "AccidentalDeath": [],
+                            "Dismemberment": [],
+                            "WoP": []
+                        }
+                    },
+                    "Temporary": {
+                        "PerMille": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        },
+                        "Percentage": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        }
+                    }
+                },
+                "Life2": {
+                    "Permanent": {
+                        "PerMille": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "Hospitalization": 0,
+                            "PTD": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        },
+                        "Percentage": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "Hospitalization": 0,
+                            "PTD": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        }
+                    },
+                    "Temporary": {
+                        "PerMille": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        },
+                        "Percentage": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        }
+                    }
+                }
+            },
+            "Escalation Percentage": 0,
+            "Single Premium Term": 2
+        }
+    },
+    {
+        "TestCaseNo.": 5,
+        "payload": {
+            "Product Name": "Futura",
+            "Product Version": "FUTU5",
+            "Policy Start Date": "01/11/2022",
+            "Currency": "EUR",
+            "Duration": 10,
+            "Vanishing Term": true,
+            "Life Basis": "SL",
+            "Premium Basis": "Minimum",
+            "WoP Basis": "Neither Life",
+            "Payment Frequency": "Half Yearly",
+            "Special Offer": 1,
+            "Single Premium": 0,
+            "Regular Premium": 0,
+            "Mode": "Monthly",
+            "FMC": 1.6,
+            "FIA Charge": 1,
+            "SA Interest": 0,
+            "RateList": [
+                0,
+                5.5,
+                4.5
+            ],
+            "Growth Rate": 6.7,
+            "Insured Details": {
+                "Life1": {
+                    "DateOfBirth": "1975-04-03",
+                    "Gender": "F",
+                    "Smoker": "Y",
+                    "title": "Mr.",
+                    "Name": "Test One",
+                    "SumInsuredTerm": 10088924,
+                    "SumInsuredCI": 1366730,
+                    "CancerCover": false,
+                    "FTIBIncome": 21014,
+                    "FTIBTerm": 15,
+                    "FIBIncome": 24054,
+                    "FIBTerm": 11,
+                    "SumInsuredAccidentalDeath": 1168855,
+                    "SumInsuredDismemberment": 724470,
+                    "SumInsuredHospitalization": 2744,
+                    "SumInsuredPTD": 1245844
+                },
+                "Life2": {
+                    "DateOfBirth": "1953-10-12",
+                    "Gender": "M",
+                    "Smoker": "Y",
+                    "title": "Mr.",
+                    "Name": "Test One",
+                    "SumInsuredTerm": 0,
+                    "SumInsuredCI": 0,
+                    "CancerCover": false,
+                    "FTIBIncome": 0,
+                    "FTIBTerm": 0,
+                    "FIBIncome": 0,
+                    "FIBTerm": 0,
+                    "SumInsuredAccidentalDeath": 0,
+                    "SumInsuredDismemberment": 0,
+                    "SumInsuredHospitalization": 0,
+                    "SumInsuredPTD": 0
+                }
+            },
+            "Loadings": {
+                "Life1": {
+                    "Permanent": {
+                        "PerMille": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "PTD": 0,
+                            "Hospitalization": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        },
+                        "Percentage": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "PTD": 0,
+                            "Hospitalization": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        },
+                        "Exclusions": {
+                            "Life Cover": [],
+                            "Critical Illness": [],
+                            "PTD": [],
+                            "Hospitalization": [],
+                            "FIB": [],
+                            "FTIB": [],
+                            "AccidentalDeath": [],
+                            "Dismemberment": [],
+                            "WoP": []
+                        }
+                    },
+                    "Temporary": {
+                        "PerMille": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        },
+                        "Percentage": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        }
+                    }
+                },
+                "Life2": {
+                    "Permanent": {
+                        "PerMille": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "Hospitalization": 0,
+                            "PTD": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        },
+                        "Percentage": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "Hospitalization": 0,
+                            "PTD": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        }
+                    },
+                    "Temporary": {
+                        "PerMille": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        },
+                        "Percentage": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        }
+                    }
+                }
+            },
+            "Escalation Percentage": 0,
+            "Single Premium Term": 1
+        }
+    },
+    {
+        "TestCaseNo.": 6,
+        "payload": {
+            "Product Name": "Futura",
+            "Product Version": "FUTU5",
+            "Policy Start Date": "01/11/2022",
+            "Currency": "AED",
+            "Duration": 16,
+            "Vanishing Term": true,
+            "Life Basis": "JLFD",
+            "Premium Basis": "Minimum",
+            "WoP Basis": "Second Life",
+            "Payment Frequency": "Quarterly",
+            "Special Offer": 1,
+            "Single Premium": 0,
+            "Regular Premium": 0,
+            "Mode": "Monthly",
+            "FMC": 1.6,
+            "FIA Charge": 1,
+            "SA Interest": 0,
+            "RateList": [
+                0,
+                5.5,
+                4.5
+            ],
+            "Growth Rate": 3.8,
+            "Insured Details": {
+                "Life1": {
+                    "DateOfBirth": "1958-01-04",
+                    "Gender": "F",
+                    "Smoker": "N",
+                    "title": "Mr.",
+                    "Name": "Test One",
+                    "SumInsuredTerm": 21646104,
+                    "SumInsuredCI": 0,
+                    "CancerCover": false,
+                    "FTIBIncome": 99184,
+                    "FTIBTerm": 15,
+                    "FIBIncome": 0,
+                    "FIBTerm": 0,
+                    "SumInsuredAccidentalDeath": 6618993,
+                    "SumInsuredDismemberment": 0,
+                    "SumInsuredHospitalization": 0,
+                    "SumInsuredPTD": 7267252
+                },
+                "Life2": {
+                    "DateOfBirth": "1969-03-14",
+                    "Gender": "F",
+                    "Smoker": "N",
+                    "title": "Mr.",
+                    "Name": "Test One",
+                    "SumInsuredTerm": 21646104,
+                    "SumInsuredCI": 0,
+                    "CancerCover": false,
+                    "FTIBIncome": 99184,
+                    "FTIBTerm": 15,
+                    "FIBIncome": 0,
+                    "FIBTerm": 0,
+                    "SumInsuredAccidentalDeath": 6618993,
+                    "SumInsuredDismemberment": 0,
+                    "SumInsuredHospitalization": 0,
+                    "SumInsuredPTD": 7267252
+                }
+            },
+            "Loadings": {
+                "Life1": {
+                    "Permanent": {
+                        "PerMille": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "PTD": 0,
+                            "Hospitalization": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        },
+                        "Percentage": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "PTD": 0,
+                            "Hospitalization": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        },
+                        "Exclusions": {
+                            "Life Cover": [],
+                            "Critical Illness": [],
+                            "PTD": [],
+                            "Hospitalization": [],
+                            "FIB": [],
+                            "FTIB": [],
+                            "AccidentalDeath": [],
+                            "Dismemberment": [],
+                            "WoP": []
+                        }
+                    },
+                    "Temporary": {
+                        "PerMille": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        },
+                        "Percentage": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        }
+                    }
+                },
+                "Life2": {
+                    "Permanent": {
+                        "PerMille": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "Hospitalization": 0,
+                            "PTD": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        },
+                        "Percentage": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "Hospitalization": 0,
+                            "PTD": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        }
+                    },
+                    "Temporary": {
+                        "PerMille": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        },
+                        "Percentage": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        }
+                    }
+                }
+            },
+            "Escalation Percentage": 0,
+            "Single Premium Term": 0
+        }
+    },
+    {
+        "TestCaseNo.": 7,
+        "payload": {
+            "Product Name": "Futura",
+            "Product Version": "FUTU5",
+            "Policy Start Date": "01/11/2022",
+            "Currency": "EUR",
+            "Duration": 18,
+            "Vanishing Term": true,
+            "Life Basis": "JLLS",
+            "Premium Basis": "Minimum",
+            "WoP Basis": "Second Life",
+            "Payment Frequency": "Monthly",
+            "Special Offer": 1,
+            "Single Premium": 0,
+            "Regular Premium": 0,
+            "Mode": "Monthly",
+            "FMC": 1.6,
+            "FIA Charge": 0,
+            "SA Interest": 0,
+            "RateList": [
+                0,
+                5.5,
+                4.5
+            ],
+            "Growth Rate": 6.9,
+            "Insured Details": {
+                "Life1": {
+                    "DateOfBirth": "1990-01-03",
+                    "Gender": "M",
+                    "Smoker": "N",
+                    "title": "Mr.",
+                    "Name": "Test One",
+                    "SumInsuredTerm": 11718778,
+                    "SumInsuredCI": 0,
+                    "CancerCover": false,
+                    "FTIBIncome": 0,
+                    "FTIBTerm": 0,
+                    "FIBIncome": 0,
+                    "FIBTerm": 0,
+                    "SumInsuredAccidentalDeath": 0,
+                    "SumInsuredDismemberment": 0,
+                    "SumInsuredHospitalization": 0,
+                    "SumInsuredPTD": 0
+                },
+                "Life2": {
+                    "DateOfBirth": "1997-05-09",
+                    "Gender": "M",
+                    "Smoker": "Y",
+                    "title": "Mr.",
+                    "Name": "Test One",
+                    "SumInsuredTerm": 11718778,
+                    "SumInsuredCI": 0,
+                    "CancerCover": false,
+                    "FTIBIncome": 0,
+                    "FTIBTerm": 0,
+                    "FIBIncome": 0,
+                    "FIBTerm": 0,
+                    "SumInsuredAccidentalDeath": 0,
+                    "SumInsuredDismemberment": 0,
+                    "SumInsuredHospitalization": 0,
+                    "SumInsuredPTD": 0
+                }
+            },
+            "Loadings": {
+                "Life1": {
+                    "Permanent": {
+                        "PerMille": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "PTD": 0,
+                            "Hospitalization": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        },
+                        "Percentage": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "PTD": 0,
+                            "Hospitalization": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        },
+                        "Exclusions": {
+                            "Life Cover": [],
+                            "Critical Illness": [],
+                            "PTD": [],
+                            "Hospitalization": [],
+                            "FIB": [],
+                            "FTIB": [],
+                            "AccidentalDeath": [],
+                            "Dismemberment": [],
+                            "WoP": []
+                        }
+                    },
+                    "Temporary": {
+                        "PerMille": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        },
+                        "Percentage": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        }
+                    }
+                },
+                "Life2": {
+                    "Permanent": {
+                        "PerMille": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "Hospitalization": 0,
+                            "PTD": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        },
+                        "Percentage": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "Hospitalization": 0,
+                            "PTD": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        }
+                    },
+                    "Temporary": {
+                        "PerMille": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        },
+                        "Percentage": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        }
+                    }
+                }
+            },
+            "Escalation Percentage": 0,
+            "Single Premium Term": 1
+        }
+    },
+    {
+        "TestCaseNo.": 8,
+        "payload": {
+            "Product Name": "Futura",
+            "Product Version": "FUTU5",
+            "Policy Start Date": "01/11/2022",
+            "Currency": "EUR",
+            "Duration": 0,
+            "Vanishing Term": false,
+            "Life Basis": "JLBD",
+            "Premium Basis": "Minimum",
+            "WoP Basis": "Neither Life",
+            "Payment Frequency": "None",
+            "Special Offer": 1,
+            "Single Premium": 0,
+            "Regular Premium": 0,
+            "Mode": "Monthly",
+            "FMC": 1.6,
+            "FIA Charge": 0,
+            "SA Interest": 0,
+            "RateList": [
+                0,
+                5.5,
+                4.5
+            ],
+            "Growth Rate": 2.6,
+            "Insured Details": {
+                "Life1": {
+                    "DateOfBirth": "1969-03-29",
+                    "Gender": "F",
+                    "Smoker": "N",
+                    "title": "Mr.",
+                    "Name": "Test One",
+                    "SumInsuredTerm": 6353640,
+                    "SumInsuredCI": 564565,
+                    "CancerCover": false,
+                    "FTIBIncome": 0,
+                    "FTIBTerm": 0,
+                    "FIBIncome": 0,
+                    "FIBTerm": 0,
+                    "SumInsuredAccidentalDeath": 1105227,
+                    "SumInsuredDismemberment": 0,
+                    "SumInsuredHospitalization": 2041,
+                    "SumInsuredPTD": 305273
+                },
+                "Life2": {
+                    "DateOfBirth": "1993-03-12",
+                    "Gender": "M",
+                    "Smoker": "Y",
+                    "title": "Mr.",
+                    "Name": "Test One",
+                    "SumInsuredTerm": 5693573,
+                    "SumInsuredCI": 1010643,
+                    "CancerCover": false,
+                    "FTIBIncome": 19292,
+                    "FTIBTerm": 13,
+                    "FIBIncome": 0,
+                    "FIBTerm": 0,
+                    "SumInsuredAccidentalDeath": 587127,
+                    "SumInsuredDismemberment": 0,
+                    "SumInsuredHospitalization": 2795,
+                    "SumInsuredPTD": 1230855
+                }
+            },
+            "Loadings": {
+                "Life1": {
+                    "Permanent": {
+                        "PerMille": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "PTD": 0,
+                            "Hospitalization": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        },
+                        "Percentage": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "PTD": 0,
+                            "Hospitalization": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        },
+                        "Exclusions": {
+                            "Life Cover": [],
+                            "Critical Illness": [],
+                            "PTD": [],
+                            "Hospitalization": [],
+                            "FIB": [],
+                            "FTIB": [],
+                            "AccidentalDeath": [],
+                            "Dismemberment": [],
+                            "WoP": []
+                        }
+                    },
+                    "Temporary": {
+                        "PerMille": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        },
+                        "Percentage": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        }
+                    }
+                },
+                "Life2": {
+                    "Permanent": {
+                        "PerMille": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "Hospitalization": 0,
+                            "PTD": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        },
+                        "Percentage": {
+                            "Life Cover": 0,
+                            "Critical Illness": 0,
+                            "Hospitalization": 0,
+                            "PTD": 0,
+                            "FIB": 0,
+                            "FTIB": 0,
+                            "AccidentalDeath": 0,
+                            "Dismemberment": 0,
+                            "WoP": 0
+                        }
+                    },
+                    "Temporary": {
+                        "PerMille": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        },
+                        "Percentage": {
+                            "Life Cover": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Critical Illness": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Hospitalization": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "PTD": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "FTIB": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "AccidentalDeath": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "Dismemberment": {
+                                "Value": 0,
+                                "Time": 0
+                            },
+                            "WoP": {
+                                "Value": 0,
+                                "Time": 0
+                            }
+                        }
+                    }
+                }
+            },
+            "Escalation Percentage": 0,
+            "Single Premium Term": 1
+        }
+    }
+]
