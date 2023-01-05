@@ -11,9 +11,8 @@ def get_test_result(test_case_num):
     for i in data:
         if i["TestCaseNo."] == test_case_num:
             # print(i["payload"])
-            url = "http://10.238.17.61:8001/premium_calculator"
+            url = "http://127.0.0.1:8001/premium_calculator"
             response = requests.post(url,json=i["payload"])
             print(response.json())
-
 
 get_test_result(test_case_num)

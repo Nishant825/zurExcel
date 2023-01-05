@@ -19,12 +19,11 @@ test_result = []
 for record in data:
     try:
         print(f"test case running for {record['TestCaseNo.']}")
-        url = ""
-        # response = requests.post(url,json=record["payload"])
+        url = "http://127.0.0.1:8001/premium_calculator"
+        response = requests.post(url,json=record["payload"])
         resp_dict = {}
         resp_dict["payload"] = record['payload']
-        # resp_dict["result"] = response.json()
-        resp_dict["Response"] = "yoo"
+        resp_dict["Response"] = response.json()
         test_dict = {}
         test_dict["TestCaseNo."] = record['TestCaseNo.']
         test_dict["Payload and Response"] = resp_dict
