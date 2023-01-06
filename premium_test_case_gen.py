@@ -1,14 +1,12 @@
 import requests
 import json
 import os
-from payload_gen import write_data
-
 
 
 
 def write_data(data):
     with open(f"{os.getcwd()}/jsondata/premium_test_case_result.json", "w") as outfile:
-        json.dump(data,outfile,indent=4)
+        json.dump(data, outfile, indent=4)
 
 
 with open('jsondata/payloadTest.json') as json_file:
@@ -20,7 +18,7 @@ for record in data:
     try:
         print(f"test case running for {record['TestCaseNo.']}")
         url = "http://127.0.0.1:8001/premium_calculator"
-        response = requests.post(url,json=record["payload"])
+        response = requests.post(url, json=record["payload"])
         resp_dict = {}
         resp_dict["payload"] = record['payload']
         resp_dict["Response"] = response.json()
@@ -34,4 +32,3 @@ for record in data:
         print(f"test case stopped for {record['TestCaseNo.']}")
 
 write_data(test_result)
-

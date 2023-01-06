@@ -11,7 +11,7 @@ for i in data:
     resp_dict["Test Case No."] = i["TestCaseNo."]
     if "response" in i["Payload and Response"]["Response"]["result"]:
         resp_dict["local premium"] = i["Payload and Response"]["Response"]["result"]["response"]["premium"]
-    elif  "errorList" in i["Payload and Response"]["Response"]["result"]:
+    elif "errorList" in i["Payload and Response"]["Response"]["result"]:
         resp_dict["local premium"] = i["Payload and Response"]["Response"]["result"]["errorList"][0]["message"]
     else:
         resp_dict["local premium"] = ""
@@ -19,7 +19,7 @@ for i in data:
     resp_list.append(resp_dict)
 
 df = pd.DataFrame.from_dict(resp_list)
-df.index.name ="Sr No."
+df.index.name = "Sr No."
 df.index += 1
 
 df.to_excel('premium_excel/TestCaseResult.xlsx')

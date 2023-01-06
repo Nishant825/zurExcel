@@ -3,23 +3,23 @@ import os
 import json
 
 
-
-
 def write_data(data):
     with open(f"{os.getcwd()}/jsondata/PayloadTest.json", "w") as outfile:
-        json.dump(data,outfile,indent=4)
+        json.dump(data, outfile, indent=4)
 
 
 def convert_fiaCharge_to_percentage(num):
     value = int(num*100)
     return value
 
+
 def convert_growthrate_to_valid_percentage(num):
-    value = round(num*100,1)
+    value = round(num*100, 1)
     return value
 
 
-excel_data_df = pd.read_excel('test_premium_cases.xlsm',sheet_name='SSP Test Cases',skiprows=2, dtype=object).fillna(0)
+excel_data_df = pd.read_excel(
+    'test_premium_cases.xlsm', sheet_name='SSP Test Cases', skiprows=2, dtype=object).fillna(0)
 
 data = excel_data_df.to_dict('records')
 
@@ -27,35 +27,33 @@ data = excel_data_df.to_dict('records')
 case_list = []
 
 for record in data[2:102]:
-    print(convert_growthrate_to_valid_percentage(record["Illustrative Growth Rate"]),"66666666666666666666")
- 
+    print(convert_growthrate_to_valid_percentage(
+        record["Illustrative Growth Rate"]), "66666666666666666666")
+
     if "Sex" in record:
-        if record["Sex"]==1:
+        if record["Sex"] == 1:
             l1_gender = "M"
         else:
             l1_gender = "F"
-    
-   
+
     if "Sex.1" in record:
-        if record["Sex.1"]==1:
+        if record["Sex.1"] == 1:
             l2_gender = "M"
         else:
             l2_gender = "F"
-    
 
     if "Smoker" in record:
-        if record["Smoker"]==1:
+        if record["Smoker"] == 1:
             l1_smoker = "N"
         else:
             l1_smoker = "Y"
-    
 
     if "Smoker.1" in record:
-        if record["Smoker.1"]==1:
+        if record["Smoker.1"] == 1:
             l2_smoker = "N"
         else:
             l2_smoker = "Y"
-    
+
     flag = False
     if "VP Flag" in record:
         if record["VP Flag"] == 1:
@@ -66,12 +64,12 @@ for record in data[2:102]:
 
     if record["Policy Term Basis"] == "Minimum":
         record["Policy Term Basis"] = "MinimumPremium"
-    
+
     if record["Policy Term Basis"] == "Whole of life":
         record["Policy Term Basis"] = "WholeOfLife"
 
     result = {}
-    payload = { 
+    payload = {
         "Product Name": "Futura",
         "Product Version": "FUTU5",
         "Policy Start Date": "01/11/2022",
@@ -364,4 +362,3 @@ for record in data[2:102]:
 write_data(case_list)
 # final = json.dumps(case_list, indent=2)
 # print(final)
-
