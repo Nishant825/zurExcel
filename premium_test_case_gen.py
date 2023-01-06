@@ -1,7 +1,7 @@
 import requests
 import json
 import os
-
+import time
 
 
 def write_data(data):
@@ -14,6 +14,7 @@ with open('jsondata/payloadTest.json') as json_file:
 
 
 test_result = []
+start_time = time.monotonic()
 for record in data:
     try:
         print(f"test case running for {record['TestCaseNo.']}")
@@ -30,5 +31,5 @@ for record in data:
     except Exception as e:
         print(str(e))
         print(f"test case stopped for {record['TestCaseNo.']}")
-
+print(f"Time Taken: {time.monotonic()-start_time}")
 write_data(test_result)
