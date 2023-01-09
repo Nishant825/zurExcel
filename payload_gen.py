@@ -26,7 +26,7 @@ data = excel_data_df.to_dict('records')
 # print(data)
 case_list = []
 
-for record in data[2:102]:
+for record in data[2:52]:
     print(convert_growthrate_to_valid_percentage(
         record["Illustrative Growth Rate"]), "66666666666666666666")
 

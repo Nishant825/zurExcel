@@ -33,7 +33,10 @@ async def main():
     task_list = []
     for record in data:
         task_list.append(get_test_case_result(record))
-    await asyncio.gather(*task_list)
+    
+    l = [ task_list [i:i + 5] for i in range(0, len(task_list), 5) ]
+    for task in l:
+        await asyncio.gather(*task)
 
 
 if __name__ == '__main__':
