@@ -1,2 +1,2 @@
 def test():
-    print("this is local")
+    print("this is 2023")
