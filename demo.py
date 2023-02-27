@@ -1,2 +1,2 @@
 def test():
-    print("whts up")
+    print("2023")
