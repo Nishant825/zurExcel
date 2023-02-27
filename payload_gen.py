@@ -1,7 +1,10 @@
 import pandas as pd
 import os
 import json
+from datetime import datetime
 
+print("++++++",datetime.utcnow())
+print("++++++",datetime.now())
 
 def write_data(data):
     with open(f"{os.getcwd()}/jsondata/PayloadTest.json", "w") as outfile:
@@ -92,6 +95,7 @@ for record in data[2:52]:
             5.5,
             4.5
         ],
+        
         "Growth Rate": convert_growthrate_to_valid_percentage(record['Illustrative Growth Rate']),
         "Insured Details": {
             "Life1": {
